@@ -1,0 +1,428 @@
+﻿/** MAIN **/
+.main {
+	padding: 20px;
+
+}
+
+.main h1 {
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 0 0 10px;
+}
+
+/* Notícias */
+.main .header-news {
+	border-bottom: 1px solid #999;
+	margin: 0 0 10px;
+}
+
+.main .more-news {
+	margin: 20px 0 0;
+	float: right;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.main .news p {
+	text-align: left;
+}
+
+.main .news h1 {
+	text-transform: initial;
+	border: 0;
+}
+
+.main .news h4 {
+	text-transform: uppercase;
+	padding: 10px 0;
+	font-weight: 400;
+	font-style: italic;
+	color: #999;
+}
+
+.main .news .image {
+	height: 200px;
+	background-size: 100% !important;
+	background-repeat: no-repeat !important;
+	background-position: center center !important;
+}
+
+/* PROFISSÃO */
+.main .occupations .image {
+	height: 150px;
+	background-repeat: no-repeat !important;
+	background-position: center center !important;
+}
+
+/* PROFISSIONAIS */
+.main .column:nth-child(1) .professionals {
+	margin-top: 0;
+}
+
+.main .professionals {
+	margin: 20px 0 0;
+}
+
+.main .professionals p {
+	text-align: left;
+}
+
+.professionals img {
+	padding: 20px;
+	border: 1px solid;
+	width: 100%;
+	margin: 0 0 20px;
+}
+
+.professionals .line {
+	border-top: 1px solid;
+	margin: 40px 0 0;
+	padding: 0 0 40px;
+}
+
+.professionals .line:last-child{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+/** CONTATOS */
+.contacts p {
+	padding: 0 0 10px;
+}
+
+.contacts .column:nth-child(2) {
+	padding: 0 0 20px;
+	/* Up -> Right -> Bottom -> Left */
+}
+
+.main .contacts .input-group {
+	margin: 10px 0 0;
+}
+
+.main .contacts .input-group:nth-child(1) {
+	margin: 0;
+}
+
+.main .contacts input,
+.main .contacts textarea,
+.main .contacts select {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #98D879;
+	color: #000 !important;
+}
+
+.main .contacts select {
+	padding: calc(10px - 3px);
+}
+
+.main .contacts input:focus {
+	border: 1px solid #CACACA;
+}
+
+.main .contacts button {
+	width: 100%;
+	margin: 10px 0 0;
+	padding: 10px;
+	border: 1px solid #20B2AA;
+	background: #008B8B;
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.main .contacts button:hover {
+	border: 1px solid #008B8B;
+	background: #20B2AA;
+}
+
+.main .location iframe {
+	padding: 20px 0 0;
+	width: 100%;
+	height: 400px;
+}
+
+/* HISTÓRIA */
+.main .historic {
+	background: ;
+}
+
+.main .historic p {
+	padding: 0 0 10px;
+	text-align: justify;
+
+}
+
+.main .historic .p1 {
+	padding: 0 0 10px;
+	text-align: right;
+
+}
+
+.historic img {
+	padding: 0 50px;
+}
+
+/* GALLERY */
+.gallery .image {
+	height: 200px;
+	background-repeat: no-repeat !important;
+	background-position: center center !important;
+	margin: 0 0 10px;
+	background-size: cover !important;
+}
+
+.gallery img {
+	padding: 10px 0;
+}
+
+.gallery .photos {
+	padding: 5px 0;
+}
+
+/* HELPERS */
+.buttons {
+	margin: 10px 0 0;
+}
+
+.others h1 {
+	text-transform: initial;
+	font-weight: 400;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.others p {
+	padding: 10px 0 0;
+	text-align: justify;
+}
+
+.others date {
+	font-weight: 700;
+	font-size: 10px;
+	padding: 5px 0;
+	text-align: left;
+}
+
+.others .more {
+	float: right;
+	font-size: 10px;
+	padding: 5px 10px;
+	background: #98D879;
+	color: #FDFDFD;
+	text-transform: uppercase;
+}
+
+/** PAGINAÇÃO ********************************/
+
+.pages {
+	padding: 10px;
+	margin: 10px 0 0;
+	text-align: center;
+}
+
+.pages a {
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #FFFFFF;
+	padding: 5px 10px;
+	margin: 0 2px;
+	background: #98D879;
+}
+
+.pages .active {
+	color: #98D879;
+	background: #CACACA;
+}
+
+/** ESPECIALIDADES */
+.specialties h1 {
+	background: #FFFFFF !important;
+	display: block;
+	margin: 0;
+}
+
+.specialties .column:first-child {
+	padding: 0;
+}
+.specialties .column {
+	padding: 10px;
+	margin: 0 0 20px;
+}
+
+.specialties .column:nth-child(2),
+.specialties .column:nth-child(4),
+.specialties .column:nth-child(6),
+.specialties .column:nth-child(8){
+	background: #A8E7FF;
+}
+
+.specialties img {
+	padding: 0 0 20px;
+}
+
+.specialties h2 {
+	font-weight: 700;
+	text-transform: uppercase;
+	background: #98D879;
+	padding: 10px;
+	margin: 0 0 10px;
+}
+
+.specialties p {
+	text-align: left;
+	padding: 5px 0 5px;
+}
+
+/*
+.specialties p:last-child {
+	padding: 5px 0 20px;	
+}
+*/
+
+.specialties .at {
+	font-weight: 700;
+	margin: 10px 0 5px;
+}
+
+.specialties ul {
+	margin: 10px 0;
+}
+
+.specialties ul:last-child {
+	margin: 10px 0 20px;
+}
+
+.specialties li {
+	margin: 0 0 0 15px;
+}
+
+.specialties .col-2 {
+	padding: 10px 0 0;
+	/* Up -> Right -> Bottom -> Left */
+}
+
+.welcome {
+	padding: 50px 20px;
+	background: #00adef;
+	color: #FDFDFD;
+}
+
+.welcome h2 {
+	color: #122608;
+
+	text-transform: uppercase;
+	padding: 0 0 10px;
+}
+
+.welcome strong {
+	color: #FDFDFD;
+}
+
+.welcome p {
+	color: #FDFDFD;
+	font-size: 16px;
+	text-align: left;
+}
+
+.welcome .column:last-child {
+	text-align: right;
+	padding: 10px 0 0;
+}
+
+.welcome .column:last-child a {
+	padding: 0 5px 0 0;
+	display: inline-block;
+	color: #122608;
+}
+
+.g-photos {
+	text-align: right;
+	padding: 10px 20px;
+	background: #122608;
+	color: #c7fcae;
+}
+
+.g-photos i {
+	padding: 0 10px 0 0;
+}
+
+.g-photos span {
+	text-transform: uppercase;
+	float: left;
+}
+
+.g-photos a {
+	color: #c7fcae;
+}
+
+.photos .others {
+	color: #1c3a0e;
+	padding: 20px;
+	margin: 0 0 10px;
+	background: #c7fcae;
+}
+
+.photos .others h1 {
+	color: #122608;
+}
+
+.photos .others:last-child {
+	margin: 10px 0 0;
+}
+
+.photos .others:last-child .buttons {
+	margin: 0;
+}
+
+.slide img {
+	width: 100%;
+	padding: 10px;
+}
+
+/** Medias 768px **/
+@media only screen and (min-width: 768px){
+
+}
+
+/** Medias 1024px **/
+@media only screen and (min-width: 1024px){
+	.main .contacts .column:nth-child(2) {
+		padding: 0 10px 0 0;
+		/* Up -> Right - Bottom - Left */
+	}
+
+	.main .contacts .column:nth-child(3) {
+		padding: 0 0 0 10px;
+	}
+
+	.gallery img {
+		padding: 10px;
+	}
+
+	.gallery .photos {
+		padding: 5px;
+	}
+
+	.main .news, 
+	.main .professionals {
+		padding: 10px;
+	}
+
+	.welcome {
+		padding: 50px 20px;
+	}
+
+	.others h1 {
+		margin: 0;
+	}
+
+	.professionals img {
+	padding: 20px;
+	border: 1px solid;
+	width: 90%;
+	margin: 0;
+}
+}

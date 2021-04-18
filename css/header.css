@@ -1,0 +1,142 @@
+/** HEADER **/
+.header {
+	z-index: 9999;
+	top: 0;
+	position: fixed;
+	background: #FDFDFD;
+	border-bottom: 2px solid #aee56e;
+	text-align: center;
+}
+
+/** Header - Menu **/
+.menu {
+	width: 100%;
+	background: #50992D;
+	display: none;	
+	text-align: center;
+	padding: 10px;
+}
+
+.menu li {
+	display: block;
+	list-style: none;
+}
+
+.menu li a {
+	display: block;
+	background: #00adef;
+	padding: 10px 0;
+	text-transform: uppercase;
+	color: #FDFDFD;
+	font-weight: 500;
+	margin: 0 0 10px;
+}
+
+.menu li a:hover {
+	background: #00adef;
+	color: #FDFDFD;
+}
+
+.menu li:nth-child(6) a {
+	margin-bottom: 0;
+}
+
+.header h1 {
+	margin: 0;
+	padding: 0;
+}
+
+.header .logo {
+	width: 40px;
+	margin: 2.5px 0;
+	height: 40px;
+	text-indent: -99999px;
+	display: inline-block;
+	position: relative;
+	float: none;
+	background: url('../images/mobile-erasmo.jpg') no-repeat center center;
+	background-size: contain;
+}
+
+.btn-menu {
+	top: 0;
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	display: block;
+	background: none;
+}
+
+.slideshow {
+	margin: 47px 0 0;
+}
+
+/** Medias 768px **/
+@media only screen and (min-width: 768px){
+	.header .logo {
+		margin: 10px;
+	}
+}
+
+/** Medias 1024px **/
+@media only screen and (min-width: 1024px){
+	/** Header - Menu **/
+	.btn-menu {
+		display: none;
+	}
+
+	.active {
+		background: #f37d19 !important;
+		color: #FDFDFD !important;
+	}
+
+	.menu {
+		margin: 7px 0 0;
+		width: auto;
+		display: inline-block;
+		background: none;
+		text-align: right;
+		float: right;
+	}
+
+	.menu ul {
+		padding: 0;
+		margin: 0;
+	}
+
+	.menu li {
+		padding: 0;
+		margin: 0;
+		text-align: center;
+		display: inline-block;
+		background: none;
+	}
+
+	.menu li a {
+		margin: 0 5px 0 0;
+		display: block;
+		padding: 5px 10px;
+		border-radius: 3px;
+	}
+
+	.menu li a:hover {
+		background: #f37d19;
+	}
+
+	.menu li:last-child a {
+		margin-right: 0;
+	}
+
+	.slideshow {
+		margin: 62px 0 0;
+	}
+
+	.header .logo {
+		margin: 10px;
+		width: 200px;
+		float: left;
+		background: url('../images/erasmo.jpg') no-repeat left center;
+		background-size: cover;
+	}
+
+}
