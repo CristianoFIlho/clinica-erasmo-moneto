@@ -1,4 +1,7 @@
 # clinica-erasmo-moneto
+
+![erasmo](https://user-images.githubusercontent.com/54041918/146683655-84233ebf-7d29-4cfe-b1bd-46ad343e0de2.gif)
+
 clinica erasmo moneto
 
 ## 🛠 Getting started
